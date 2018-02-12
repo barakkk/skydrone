@@ -24,6 +24,9 @@ sudo pip install future
 sudo pip install pymavlink
 sudo pip install mavproxy
 
-#pckg for openvpn
+# pckg for openvpn
 sudo apt-get install -y openvpn
 
+# pckg for Git
+sudo apt-get install git -y
+#sudo git clone https://github.com/barakkk/skydrone.git
