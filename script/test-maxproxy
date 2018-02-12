@@ -1,0 +1,1 @@
+sudo -s mavproxy.py --master=/dev/ttyAMA0 --baurate 57600 --out=udp:90.87.252.75:14550
