@@ -15,9 +15,14 @@ sudo apt-get install -y gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.
 
 # pckg for mavproxy
 #original sudo apt-get install python-dev python-opencv python-wxgtk3.0 python-pip python-matplotlib python-pygame python-lxml
-sudo apt-get install -y libxml2-dev libxlt-dev
+sudo apt-get install -y libxml2 libxml2-dev libxslt1 libxslt1-dev
 sudo apt-get install -y python-dev python-opencv python-wxgtk3.0 python-pip python-matplotlib python-pygame python-lxml
-sudo apt-get install -y python-pip python-lxml python-libxml2
+sudo apt-get install -y python-pip
+sudo apt-get install -y python-lxml python-libxml2 python-libxslt1
+
+sudo pip install future
+sudo pip install pymavlink
+sudo pip install mavproxy
 
 #pckg for openvpn
 sudo apt-get install -y openvpn
