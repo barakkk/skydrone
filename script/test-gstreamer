@@ -1,1 +1,1 @@
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,width=1280,height=720 ! omxh264enc ! rtph264pay ! udpsink host=90.87.252.75 port 5600
+gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,width=1280,height=720 ! omxh264enc ! rtph264pay ! udpsink host=10.8.0.2 port 5600
